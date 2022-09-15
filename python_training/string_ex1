@@ -1,0 +1,10 @@
+x = "Kouslaya is my name, I am taking an online python training under blastout solutions"
+# y = x.replace('yellow', 'red')
+# print(x.split())
+
+y = x.split()
+
+print(y[:4])
+print(y[4:])
+if "Kouslaya" in y:
+    print("Yes, 'Kousalya' is in the y list")
